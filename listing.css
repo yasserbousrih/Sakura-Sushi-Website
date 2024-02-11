@@ -1,0 +1,53 @@
+
+/* Set body styles */
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  background-color: #69696942;
+}
+
+/* Style header */
+header {
+  background-color: #0b0b0b;
+  padding: 1rem 0;
+}
+
+/* Style navigation menu */
+.nav-menu {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+}
+
+.nav-menu li {
+  margin: 0 1rem; /* Set the left and right margin of each list item in the navigation menu */
+}
+
+.nav-menu a {
+  color: white; /* Set the color of the text for each navigation menu item */
+  text-decoration: none; /* Remove the default underline from the text for each navigation menu item */
+}
+
+.nav-menu a:hover {
+  text-decoration: underline; /* Add an underline to the text of a navigation menu item when the user hovers over it */
+}
+
+/* Style main content */
+main {
+  max-width: 800px;
+  margin: 2rem auto;
+  padding: 1rem;
+  background-color: white;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Style page title */
+h1 {
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+/* Style order container */
+#orders-container {
+  margin-top: 1rem;
+}

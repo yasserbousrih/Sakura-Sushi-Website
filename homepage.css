@@ -1,0 +1,319 @@
+/* Set the height of the HTML element to 100% */
+html {
+  height: 100%;
+}
+
+/* Set the style for the body element */
+body {
+  margin: 0;
+  padding: 0;
+  color: white;
+  background-attachment: fixed;
+  background-image: url(kitchen.jpg);
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+  background-position: bottom;
+  background-color: #000000eb; /* keep black */
+}
+
+/* Set the style for the video element */
+video {
+  width: 100%;
+  display: block;
+}
+
+/* Set the style for the slogan element */
+#slogan {
+  text-transform: capitalize;
+  position: absolute;
+  top: 0;
+  background: #000000eb;
+  bottom: 0;
+  left: 0;
+  text-align: center;
+  right: 0;
+  font-size: 5vw;
+  color: #ffffffcf;
+  padding-top: 20%;
+}
+#slogan1 h1 {
+  font-family: 'Noto Sans JP', sans-serif;
+}
+
+/* Set the style for the banner element */
+#banner {
+  position: relative;
+  border-bottom: 1px solid #000000eb;
+}
+
+/* Set the style for the clearfix class */
+.clearfix:after { 
+  content: "."; 
+  visibility: hidden; 
+  display: block; 
+  height: 0; 
+  clear: both;
+}
+
+/* Set the style for the links in the navigation bar */
+nav a {
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+  padding: 14px 20px;
+  border-bottom: 4px solid transparent;
+  display: block;
+}
+
+/* Set the style for the hovered links in the navigation bar */
+nav > a:hover {
+  border-bottom: 4px solid white;
+}
+
+/* Set the style for the hovered links in the nested divs in the navigation bar */
+nav > div > div > a:hover {
+  background-color: #4f3a1dc6;
+}
+
+/* Set the style for the hovered div in the navigation bar */
+nav > div:hover {
+  background-color: #4f3a1dc6;
+  border-top-left-radius: 6px;
+  border-top-right-radius: 6px;
+}
+
+/* Set the style for the displayed nested divs in the navigation bar */
+nav > div:hover > div {
+  display: block;
+}
+
+/* Set the style for all elements floated to the left in the navigation bar */
+nav > * {
+  float: left;
+}
+
+/* Set the style for the nested divs in the navigation bar */
+nav > div > div {
+  background-color: #4f3a1dc6;
+  position: absolute;
+  display: none;
+  border-top-right-radius: 6px;
+  border-bottom-right-radius: 6px;
+  border-bottom-left-radius: 6px;
+  overflow: hidden;
+}
+
+/* Set the style for the links in the nested divs in the navigation bar */
+nav > div > div > a {
+  white-space: nowrap;
+  text-transform: capitalize;
+}
+
+/* Set the style for the navigation bar */
+nav {
+  position: absolute;
+  top: 0;
+  color: white;
+}
+
+/* Center aligns all elements in the main section */
+main {
+  text-align: center;
+}
+
+/* Set styles for each section containing job titles and pictures */
+
+
+section > section {
+  width: 20%;
+  vertical-align: top;
+  display: inline-block;
+  margin: 4% 2%;
+  background-color: #7b7b7bce; /* container color */
+  padding: 0 2%;
+  border-radius: 6px;
+  min-height: 260px;
+}
+
+
+/* Set background color for odd numbered sections, excluding those with .faces class */
+main > section:nth-of-type(odd):not(.faces) {
+  background-color: #07070795;
+  }
+  
+  /* Styles for all h1 elements */
+  h1 {
+  text-transform: capitalize;
+  padding-bottom: 8px;
+  }
+  
+  /* Styles for all p elements */
+  p {
+  text-align: left;
+  }
+  
+  /* Styles for section with .faces class */
+  .faces {
+  background-color: #00000081;
+  }
+  
+  /* Styles for all child elements of .faces class */
+  .faces > * {
+  position: relative;
+  margin-top: 90px;
+  padding-top: 80px;
+  min-height: 90px;
+  }
+  
+  /* Styles for all p elements inside .faces class */
+  .faces p {
+  text-align: center;
+  font-size: 18px;
+  }
+  
+  /* Styles for ::after pseudo elements of all child elements of .faces class */
+  .faces > *::after {
+  content: '';
+  display: block;
+  width: 120px;
+  height: 120px;
+  background-position: center;
+  border-radius: 50%;
+  background-size: cover;
+  position: absolute;
+  top: -60px;
+  left: 50%;
+  margin-left: -60px;
+  }
+  
+  /* Set background image for first child of .faces class */
+  .faces > :nth-child(1):after {
+  background-image: url("mypic.jpg");
+  }
+  
+  /* Set background image for second child of .faces class */
+  .faces > :nth-child(2):after {
+  background-image: url("sushichef.jpg");
+  }
+  
+  /* Set background image for third child of .faces class */
+  .faces > :nth-child(3):after {
+  background-image: url("waiter.jpg");
+  }
+  
+  /* Styles for welcome section */
+  #welcome-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #000000f3;
+  padding: 20px;
+  }
+  
+  /* Styles for h1 element in welcome section */
+  #welcome-section h1 {
+  font-size: 2.5em;
+  font-weight: bold;
+  color: #ffffff;
+  margin-bottom: 20px;
+  }
+  
+  /* Styles for p element in welcome section */
+  #welcome-section p {
+  font-size: 1.2em;
+  color: #666;
+  text-align: center;
+  max-width: 800px;
+  }
+  
+  /* Styles for footer section */
+  footer {
+  background-color: #000000;
+  padding: 20px;
+  }
+  
+  /* Styles for all elements inside footer-container class */
+  .footer-container {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  color: #ffffff55;
+  font-size: 1.1em;
+  }
+  
+  /* Styles for all p elements inside footer-container class */
+  .footer-container p {
+  margin: 10px 0;
+  }
+  
+  /* Styles for header in welcome section */
+  .welcome-header {
+  display: flex;
+  align-items: center;
+  }
+
+/* Set max-width and margin-right for logo */
+.logo {
+  max-width: 50px;
+  margin-right: 10px;
+}
+
+/* Set position, width, and overflow for banner */
+#banner1 {
+  position: relative;
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+}
+
+/* Set width and height for video */
+video {
+  width: 100%;
+  height: auto;
+}
+
+/* Set position, alignment, and text-align for slogan */
+#slogan1 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+/* Set display, background color, padding, border radius, and box shadow for bs element */
+.bs {
+  display: inline-block;
+  background-color: rgba(8, 8, 8, 0.7);
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Set color, font-size, margin, font-family, font-weight, and text-decoration for h1 element */
+h1 {
+  color: #fff;
+  font-size: 2.5rem;
+  margin: 0;
+  font-family: 'Roboto Slab', serif;
+  font-weight: 700;
+  text-decoration: none; /* Removes the dots under the text */
+}
+
+/* Set max-width and margin-right for logo */
+.logo {
+  max-width: 170px; /* You can change this value to adjust the size of the logo */
+  margin-right: 10px;
+}
+
+/* Set color, font-size, margin, font-family, font-weight, and text-decoration for welcome-title element */
+.welcome-title {
+  color: #fff;
+  font-size: 2.5rem;
+  margin: 0;
+  font-family: 'Roboto Slab', serif;
+  font-weight: 700;
+  text-decoration: none; /* Removes the dots under the text */
+}

@@ -1,0 +1,184 @@
+/* Reset default margin and padding */
+.container {
+  background-color: #AF0B03;
+  border: 1px solid #cccccc;
+  padding: 10px;
+  margin: 0 auto 20px;
+  max-width: 200px; 
+}
+
+/* Styles for the "go back" button box */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Overall styles for the page */
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  background-color: #69696942;
+}
+
+/* Styles for the header section */
+header {
+  background-color: #000000;
+  padding: 1rem 0;
+}
+
+/* Styles for the navigation menu */
+.nav-menu {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+}
+
+.nav-menu li {
+  margin: 0 1rem;
+}
+
+.nav-menu a {
+  color: white;
+  text-decoration: none;
+}
+
+.nav-menu a:hover {
+  text-decoration: underline;
+}
+
+/* Styles for the logo container */
+.logo-container {
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 20px;
+}
+
+/* Styles for the navigation menu */
+.nav-menu {
+  display: inline-block;
+  vertical-align: middle;
+  list-style: none;
+}
+
+/* Styles for the center box */
+.center-box {
+  background-color: #AF0B03;
+  border: 1px solid #cccccc;
+  padding: 10px;
+  margin: 0 auto;
+  text-align: center;
+  max-width: 400px;
+}
+
+/* Styles for the main section */
+main {
+  max-width: 800px;
+  margin: 2rem auto;
+  padding: 1rem;
+  background-color: white;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Styles for the main heading */
+h1 {
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+/* Styles for the customer information form */
+form {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+/* Styles for the customer information form the aligment  */
+label {
+  flex: 0 0 50%;
+  padding: 0.5rem;
+}
+/* Styles for the customer information form size of the text box  */
+input[type="text"] {
+  flex: 0 0 50%;
+  padding: 0.5rem;
+  margin-bottom: 1rem;
+  border: 1px solid #ccc;
+}
+
+button {
+  display: inline-block;
+  background-color: #85e1ebd6;
+  color: white;
+  padding: 0.5rem 1rem;
+  border: none;
+  cursor: pointer;
+  margin-top: 1rem;
+}
+
+button:hover {
+  background-color: #85e1ebd6;
+}
+
+/* Styles for the order confirmation overlay */
+#order-overlay {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #85e1ebd6;
+  z-index: 100;
+}
+/* Styles for the order confirmation message */
+#order-content {
+  background-color: white;
+  width: 80%;
+  max-width: 400px;
+  margin: 10% auto;
+  padding: 2rem;
+  text-align: center;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Styles for the orders container */
+#orders-container {
+  margin-top: 1rem;
+}
+
+/* Styles for the "go to listing" button */
+#go-to-listing {
+  margin-bottom: 1rem;
+}
+
+/* Styles for the table footer to align the total to the center */
+tfoot tr td[colspan="2"] {
+  text-align: center;
+}
+
+/* Styles for images within the order items */
+img {
+  max-width: 50px;
+  max-height: 50px;
+}
+
+/* Styles for each individual order item */
+.order-item {
+  background-color: black;
+  color: white;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+/* Styles for the details of each order item */
+.item-details {
+  display: flex;
+  align-items: center;
+}
+
+.item-details img {
+  max-width: 50px;
+  max-height: 50px;
+  margin-right: 10px;
+}
+

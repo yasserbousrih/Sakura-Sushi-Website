@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title> Order Confirmation </title>
+    <link rel="stylesheet" href="order.css" />
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <div class="logo-container">
+          <img src="logo.png" alt="Sakura Sushi" class="logo">
+        </div>
+        <ul class="nav-menu">
+          <li><a href="menu.html">Go back</a></li>
+        </ul>
+      </div>
+    </header>
+    <main>
+      <h1>Order Summary</h1>
+      <div id="order-summary">
+        <!-- The empty div with the ID "order-summary" will be added with item entries -->
+      </div>
+      <h2>Total: <span id="order-total"></span></h2>
+      <h2>Customer Information</h2>
+      <!-- The form contains fields for first name, last name, and a submit button to place the order -->
+      <form id="customer-info-form">
+        <label for="first-name">First Name:</label>
+        <input type="text" id="first-name" required />
+        <br />
+        <label for="last-name">Last Name:</label>
+        <input type="text" id="last-name" required />
+        <br />
+        <button id="place-order-btn" type="submit">Place Order</button>
+      </form>
+      <!-- The div with the ID "order-content" will display the confirmation message after the order is placed -->
+      <div id="order-content">
+        <h2 id="confirmation-message"></h2>
+        <p></p>
+      </div>
+      <!-- The button with the ID "go-to-listing" takes the user to a "listing.html" page -->
+      <button id="go-to-listing" onclick="window.location.href='listing.html'">Go to Listing</button>
+      <!-- The div with the ID "orders-container" is used to display past orders or other related information -->
+      <div id="orders-container"></div>
+    </main>
+    <script src="order.js"></script>
+  </body>
+</html>

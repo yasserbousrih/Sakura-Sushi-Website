@@ -1,0 +1,177 @@
+/* General styles */
+body {
+  /* sets the font family and size for the entire page */
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  /* sets the background color for the entire page */
+  background-color: #69696942;
+}
+
+/* Header styles */
+header {
+  /* sets the background color and text color for the header section */
+  background-color: #000000;
+  color: white;
+  padding: 20px;
+}
+
+.nav-menu {
+  /* makes the navigation menu items appear in a row, with space between them */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* removes the default list style from the menu items */
+  list-style: none;
+  /* sets the font size for the navigation menu items */
+  font-size: 20px;
+}
+
+.nav-menu a:hover {
+  /* sets the background and text color for the navigation menu items when hovered over */
+  background-color: #AF0B03;
+  color: #fff;
+}
+
+nav {
+  /* sets the background color and text color for the navigation section */
+  background-color: transparent;
+  color: white;
+  /* makes the navigation section appear in a row, with items centered */
+  display: flex;
+  align-items: center;
+  /* sets the padding for the navigation section */
+  padding: 10px 20px;
+}
+
+.nav-menu a {
+  /* sets the color, padding, and border radius for the navigation menu items */
+  color: #ffffff;
+  text-decoration: none;
+  padding: 10px;
+  border-radius: 4px;
+}
+
+/* Cart Overlay */
+#cart-overlay {
+  /* sets the position, width, height, and display style for the cart overlay */
+  position: fixed;
+  top: 13px;
+  right: -157px;
+  width: 400px;
+  height: 100%;
+  display: flex;
+  align-items: flex-start;
+}
+
+#cart-items {
+  /* removes the default list style for the items in the cart */
+  list-style: none;
+}
+
+#cart-content {
+  /* sets the background color, text color, and border radius for the cart content */
+  background-color: #fff;
+  color: #000;
+  border-radius: 5px;
+  /* sets the width and text alignment for the cart content */
+  width: 58%;
+  text-align: center;
+}
+
+/* Main content styles */
+main {
+  /* sets the padding and text alignment for the main content section */
+  padding: 40px;
+  text-align: center;
+}
+
+/* Menu item styles */
+.menu-item {
+  /* sets the display, margin, text alignment, background color, and border radius for the menu items */
+  display: inline-block;
+  margin: 15px;
+  text-align: left;
+  background-color: rgba(255, 255, 255, 0.9);
+  border-radius: 8px;
+  padding: 15px;
+  /* sets the width for the menu items */
+  width: 300px;
+}
+
+.menu-item img {
+  /* sets the width, height, object fit, and border radius for the images in the menu items */
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+/* Style the menu item details */
+.menu-item-details {
+  padding: 15px 0;
+}
+
+/* Style the price */
+.price {
+  font-weight: bold;
+}
+
+/* Style the item actions */
+.item-actions {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* Style the item quantity */
+.item-quantity {
+  width: 50px;
+}
+
+/* Style the add to cart button */
+.add-to-cart-btn {
+  background-color: #AF0B03;
+  color: #fff;
+  padding: 8px 12px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+/* Style the "add to cart" button when hovered */
+.add-to-cart-btn:hover {
+  background-color: #AF0B03;
+}
+
+/* Style the "place order" button */
+#cart-order-btn {
+  background-color: #AF0B03;
+  color: #fff;
+  padding: 12px 24px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 18px;
+  margin-top: 20px;
+  transition: background-color 0.2s;
+}
+
+/* Style the "place order" button when hovered */
+#cart-order-btn:hover {
+  background-color: #85E1EB;
+}
+
+/* Style the logo image */
+.logo {
+  width: 50px;
+  height: 50px;
+  margin-right: 10px;
+}
+
+/* Style the images of items in the cart */
+#cart-items li img {
+  max-width: 50px;
+  max-height: 50px;
+  margin-right: 10px;
+}
