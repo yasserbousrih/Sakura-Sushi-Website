@@ -72,12 +72,12 @@ nav > a:hover {
 
 /* Set the style for the hovered links in the nested divs in the navigation bar */
 nav > div > div > a:hover {
-  background-color: #4f3a1dc6;
+  background-color: #4f3a1d66;
 }
 
 /* Set the style for the hovered div in the navigation bar */
 nav > div:hover {
-  background-color: #4f3a1dc6;
+  background-color: #4f3a1d66;
   border-top-left-radius: 6px;
   border-top-right-radius: 6px;
 }
@@ -94,7 +94,7 @@ nav > * {
 
 /* Set the style for the nested divs in the navigation bar */
 nav > div > div {
-  background-color: #4f3a1dc6;
+  background-color: #4f3a1d66;
   position: absolute;
   display: none;
   border-top-right-radius: 6px;
