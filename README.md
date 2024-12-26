@@ -19,7 +19,6 @@ Sakura Sushi Website is designed to showcase a digital menu and ordering system 
 
 ## Technologies Used
 - **Frontend**: HTML, CSS, JavaScript
-- **Backend**: [If applicable, specify backend technologies]
 - **Images and Media**: Photos of dishes and restaurant interior.
 
 ## Installation
